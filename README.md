@@ -1,4 +1,12 @@
 # L-Measure
+[L-Measure Homepage](http://cng.gmu.edu:8080/Lm/)
+
+
+[L-Measure manual](http://cng.gmu.edu:8080/Lm/help/index.htm)
+## Overview
+ The code is centered around neuron object, which is a binary tree processed through a factory line of methods to compute the statistics (avg, min, max, etc) on any given choice of measurements (length, angles, braches, etc). There are several function classes that are designed to compute the geometrical and topological metrics at different resolutions (segment, branch, and arbor) on the neuron object. Besides this core functionality, the supporting methods include of parsers for various reconstruction formats, custom printing formats (swc, vrml, etc), PCA-based orientation of the neuron for visualization, and so on.
+ 
+## compiling L-Measure
 1.	Use MinGW for GCC/G++ compiler for windows
     *	Setup L-Measure code on GCC/G++ compiler
     *	GCC/G++ for windows is provide by many vendors like CYGWIN, MinGW and others.

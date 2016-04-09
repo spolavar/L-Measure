@@ -38,3 +38,8 @@
       *	Select the directory, where the code is being copied.
       *	Select the files and click on finish.
       *	Go to Project->Build All to build the project.
+4. GCC compilers L-Measure was tested on:
+      * Centos(Cngfile Server) : ldd (GNU libc) 2.5
+      * Fedora (Cng Server) : ldd (GNU libc) 2.10.2
+      * Ubuntu (Standalone) : ldd (GNU libc) 2.10.1
+

@@ -26,3 +26,15 @@
     *	Right click and Build Project
     *	Remove error and rebuild in case of errors.
     *	Find the executable in the debug folder of the project.
+3.	Setup Eclipse for Linux
+      *	Download the desired eclipse package from http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers-includes-incubating-components/indigosr2
+      *	Extract the downloaded  package
+      *	Click on eclipse icon to open the IDE, and select workbench.
+      *	Now make a new project File->New->C++ Project.
+      *	Select Project Type: Empty Project & Toolchains: Linux GCC. Give a Project name : lmeasure and then click finish.
+      *	Copy the code from the file server to the local machine.
+      *	Right click on the project lmeasure and select import.
+      *	Select File System and click Next.
+      *	Select the directory, where the code is being copied.
+      *	Select the files and click on finish.
+      *	Go to Project->Build All to build the project.
